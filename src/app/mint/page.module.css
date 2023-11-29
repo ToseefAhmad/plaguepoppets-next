@@ -1,0 +1,33 @@
+.main {
+  height: 100vh;
+}
+
+.orderlist {
+  list-style: inherit;
+  padding: revert;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.orderlist li {
+  margin-bottom: 10px;
+}
+
+.homeBody {
+  background-color: rgb(60, 55, 135);
+  position: relative;
+
+
+  @media (orientation: portrait) {
+    .poppetSplashBackground {
+      background-image: url("../../assets/img/splash_portrait.jpg")
+    }
+  }
+
+  @media (orientation: landscape) {
+    .poppetSplashBackground {
+      background-image: url("../../assets/img/splash_landscape.jpg")
+    }
+  }
+}

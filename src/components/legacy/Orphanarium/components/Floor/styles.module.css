@@ -1,0 +1,19 @@
+@keyframes sprites_in_kf {
+    
+    50% { background-position: var(--spritesIn)}
+    100% { background-position: var(--spritesIn)}
+
+}
+
+@keyframes sprites_out_kf {
+    to { background-position: 0 top}
+}
+
+.sprites_in {
+    /* --spritesIn: -1500% top; */
+    animation-name: sprites_in_kf;
+}
+
+.sprites_out {
+    animation-name: sprites_out_kf;
+}

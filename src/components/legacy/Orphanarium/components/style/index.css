@@ -1,0 +1,194 @@
+/* .shake:hover{ 
+    animation: shake 75ms infinite;
+    animation-timing-function: linear;   
+  }
+  
+  @keyframes shake {
+    0% { transform: rotate(3deg); }
+    50% { transform: rotate(-3deg); }
+    100% { transform: rotate(3deg); }
+  }
+
+
+  .orph-mob {
+    height: calc(100vh - 95px);
+    width: 100vw;
+    background: #000;
+    overflow: auto;
+} */
+
+
+.orphanarium-page {
+  overflow: hidden;
+  background-color: #000;
+}
+
+.gridstylealign{
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #010101;
+}
+
+.image-class{
+  width: 100%;
+  height: 100%;
+}
+
+.orph-gallery-wrapper{
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #010101;    
+}
+
+.orphLibComponent{
+  /* background-image: url('../../../../public/img/Library_Lights_Off_A_v04.png'); */
+  background-repeat: round;
+  width: 100%;
+  position: relative;
+}
+
+.orplibImage{
+  /* background-image: url('../../../../public/img/Library_Lights_Off_A_v04.png'); */
+  background-repeat: round;
+  width: 100%;
+  position: relative;
+}
+
+.orphParlorComponent{
+  /* background-image: url('./../../../../public/img/Parlour_OFF_A_v4.jpg'); */
+  background-repeat: round;
+  width: 100%;
+  position: relative;
+}
+
+.orphParlorImage{
+  /* background-image: url('./../../../../public/img/Parlour_OFF_A_v4.jpg'); */
+  background-repeat: round;
+  width: 100%;
+  position: relative;
+}
+
+
+.orplibImageHighlighter{
+  /* background-image: url('../../../../public/img/Library_Lights_Off_B_v04.png'); */
+
+  width: 100%;
+  position: relative;
+}
+
+.orphParlorImagelighter{
+  /* background-image: url('../../../../public/img/Parlour_OFF_B_v4.jpg'); */
+  background-repeat: round;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.orphParlor{
+  /* background-image: url('../../../../public/img/OrphanariumParlor.png'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 655px;
+}
+
+
+.column {
+  width: 100%;
+  height: 100%;
+  border: 0.1px solid black;
+  /* background-image: url('../../../../public/img/Library_Master_Backdrop.jpg'); */
+  /* background-repeat: no-repeat; */
+  display: inline-block;
+}
+
+.orph-mob {
+  height: calc(100vh - 95px);
+  width: 100vw;
+  background: #000;
+}
+
+.elivator{
+  /* background: url('../../../../public/img/Elevator-mob.png'); */
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 20vw;
+}
+
+.book-stand{
+  position: absolute;
+  width: 7%;
+  height: 33%;
+  left: 35%;
+  top: 58%;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.typewritter-stand{
+  position: absolute;
+  width: 11%;
+  height: 43%;
+  left: 79%;
+  top: 46%;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.parent {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size:contain;
+  position: relative;
+}
+
+.viewer {
+  transform-origin: top left;
+}
+
+video, img {
+  display: block;
+}
+
+.popup-tooltip-area {
+  width:100%;
+  height:100%;
+}
+
+.popupController {
+  position: fixed;
+  display:flex;
+  top:87%;
+  left:93%;
+  max-width:50px;
+  z-index: 999;
+}
+
+.popupController img {
+  flex: 33.33%;
+}
+
+.popupController-enable-popup {
+  font-size: .7rem;
+  position: relative;
+  padding: .5rem;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  margin: .5rem auto;
+}
+
+.shake:hover{ 
+  animation: shake 75ms infinite;
+  animation-timing-function: linear;   
+}
+
+@keyframes shake {
+  0% { transform: rotate(3deg); }
+  50% { transform: rotate(-3deg); }
+  100% { transform: rotate(3deg); }
+}

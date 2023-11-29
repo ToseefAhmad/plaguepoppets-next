@@ -1,0 +1,49 @@
+.SeasonalThreadWrapper {
+    width: 70%;
+    position: relative;
+    margin: -3.5% auto 5%;
+    display: flex;
+    padding: 2.5% 6%;
+    border-radius: 15px;
+    flex-flow: row wrap;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(to right, rgba(255,255,255,0.2), rgba(255,255,255,0.15), rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,256,255,0), rgba(255,256,255,0), rgba(255,256,255,0));
+}
+
+.SeasonalThreadWrapper [data-element="SeasonalThreadTitle"] {
+    text-align: center;
+    width: 100%;
+    font-size: 4vw;
+    line-height: normal;
+    margin-bottom: 2.5%;
+}
+
+.SeasonalThreadWrapper [data-element="SeasonalThreadParagraph"] {
+    font-size: 1.2vw;
+}
+
+
+
+
+/* MOBILE STYLES */
+
+@media screen and (max-width:767px) {
+    .SeasonalThreadWrapper {
+        width:90%;
+        padding: 21px 10px 21px 10px;
+        margin-bottom: 63px;
+        margin-top: 50px;
+
+    }
+    .SeasonalThreadWrapper [data-element="SeasonalThreadTitle"] {
+        text-align: center;
+        font-size: 30px;
+        max-width: 50%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .SeasonalThreadWrapper [data-element="SeasonalThreadParagraph"] {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,90 @@
+.seasonalThreadsWrapper {
+    width: 85vw;
+    margin: auto;
+    margin-top: 87px;
+    display: flex;
+    color: white;
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom right, #09062A, #0E2B52, #135681, #1987B7);
+    background-color: #09062A;
+    justify-content: space-around;
+
+}
+
+.leftSection {
+    padding: 5%;
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.rightSection {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+.rightSection img {
+    width: 100%;
+}
+.leftSection [data-element="seasonalThreadsTitle"] {
+    font-size: 3.5vw;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.leftSection [data-element="seasonalThreadsPara"] {
+    font-size: 1.3vw;
+    margin-bottom: 28px;
+}
+
+
+
+
+/* MOBILE STYLES*/
+/* Not yet confirmed   */
+
+@media screen and (max-width:768px) {
+
+    .seasonalThreadsWrapper {
+        flex-direction: column;
+    }
+    
+    .leftSection{
+        padding: 11px;
+        /* width: 70%; */
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        padding-top: 33px;
+        width: 100%;
+    }
+
+    .leftSection [data-element="seasonalThreadsTitle"] {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 8px;
+        text-align: center;
+        /* max-width: 50%; */
+        margin: auto;
+        max-width: 50%;
+        margin-bottom: 8px;
+    }
+
+    .leftSection [data-element="seasonalThreadsPara"] {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+
+    .rightSection {
+        width: calc(100% - 160px);
+        height: auto;
+        margin: auto;
+        padding: none;
+    }
+
+    .rightSection img {
+        width: 100%;
+        height: 100%;
+    }
+}

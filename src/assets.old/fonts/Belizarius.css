@@ -1,0 +1,12 @@
+/* Webfont: Belizarius */@font-face {
+    font-family: 'Belizarius';
+    src: url('Belizarius.eot'); /* IE9 Compat Modes */
+    src: url('Belizarius.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Belizarius.woff') format('woff'), /* Modern Browsers */
+         url('Belizarius.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Belizarius.svg#Belizarius') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
